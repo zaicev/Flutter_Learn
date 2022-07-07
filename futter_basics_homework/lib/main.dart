@@ -67,7 +67,6 @@ class CounterWidgetState extends State<CounterWidget> {
                   icon: const Icon(Icons.remove),
                   iconSize: 18,
                 ),
-                const Padding(padding: EdgeInsets.all(0.0)),
                 Text(
                   '$_count',
                   style: const TextStyle(
