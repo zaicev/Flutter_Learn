@@ -63,7 +63,7 @@ Row _searchCity() {
   return Row(
     children: [
       _icon(Icons.search, 26),
-      const Padding(padding: EdgeInsets.all(14.0)),
+      const Padding(padding: EdgeInsets.all(5.0)),
       _text('Enter City Name', 16.0, FontWeight.normal),
     ],
   );
